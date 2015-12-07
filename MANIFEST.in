@@ -1,0 +1,2 @@
+recursive-include librarian_opener_audio *
+recursive-exclude tests *

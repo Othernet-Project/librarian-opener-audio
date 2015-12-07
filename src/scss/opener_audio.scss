@@ -1,0 +1,30 @@
+@import "mediaelement";
+
+#opener-main-video {
+  // Basic geometry
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: black;
+}
+
+.mejs-container {
+  width: 100% !important;
+  height: 100% !important;
+
+  .mejs-inner {
+    width: 100%;
+    height: 100%;
+  }
+
+  .mejs-overlay {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  video {
+    width: 100%;
+    height: 100%;
+  }
+}
